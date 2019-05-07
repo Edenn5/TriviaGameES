@@ -5,7 +5,8 @@ body {
 
 body {
     text-align: center;
-    background-image: url("assests\World Cup Background.jpg");
+    background-image: url("assests/World Cup Background.jpg");
+    color: white;
 }
 
 #wrapper {
@@ -13,7 +14,7 @@ body {
     height: 95%;
     box-sizing: border-box;
     margin: 2.5% auto;
-    background-color: black;
+    background-color: transparent;
 }
 
 #sub-wrapper {
@@ -47,11 +48,13 @@ h1 {
 h2 {
     margin-bottom: 10px;
     font-size: 25px;
+    color: white;
 }
 
 h3 {
     margin-bottom: 10px;
     font-size: 25px;
+    color: white;
 }
 
 #start {
@@ -63,4 +66,5 @@ h3 {
 button:hover {
     background: red;
     border: 2px solid blue; 
+    color: white;
 }
